@@ -4,6 +4,7 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import { ConvexClientProvider } from "@/components/convex-client-provider";
 import { ClerkProvider } from "@clerk/nextjs/";
+import { useStoreUser } from "@/hooks/use-store-user";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Splitr",
